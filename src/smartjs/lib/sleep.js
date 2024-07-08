@@ -1,0 +1,1 @@
+export function sleep ( t ) { return new Promise( ( res, rej ) => setTimeout( res, t ) ); }
